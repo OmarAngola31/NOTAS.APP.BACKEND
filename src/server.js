@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
         "http://localhost:5173", 
-        "https://teal-halva-ea9852.netlify.app/"
+        "https://teal-halva-ea9852.netlify.app"
     ],
   })
 );
