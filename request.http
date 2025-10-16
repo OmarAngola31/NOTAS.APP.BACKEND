@@ -22,3 +22,12 @@ Content-Type: application/json
 {
     "titulo": "Nota Actualizada"
 }
+
+###
+POST https://notas-app-backend-j5pp.onrender.com/api/notas
+Content-Type: application/json
+
+{
+    "titulo": "Nota creada desde el Backend desplegado en Renders",
+    "descripcion": "Descripcion de mi Nota creada desde el Backend desplegado en Renders"
+}
